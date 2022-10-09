@@ -52,6 +52,10 @@ picture {
 
 /* Set core body defaults */
 body {
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-400);
+  color: hsl(var(--clr-white));
+  background-color: hsl(var(--clr-dark));
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
