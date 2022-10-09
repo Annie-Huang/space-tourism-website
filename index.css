@@ -50,6 +50,17 @@ picture {
   margin: 0;
 }
 
+/* Add this because we didn't download the fond size for google font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
 /* Set core body defaults */
 body {
   font-family: var(--ff-sans-normal);
