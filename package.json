@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server --startPath=design-system.html"
   },
   "repository": {
     "type": "git",

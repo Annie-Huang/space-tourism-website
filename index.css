@@ -111,11 +111,11 @@ select {
 }
 
 .text-dark {
-  background-color: hsl(var(--clr-dark));
+  color: hsl(var(--clr-dark));
 }
 .text-accent {
-  background-color: hsl(var(--clr-light));
+  color: hsl(var(--clr-light));
 }
 .text-white {
-  background-color: hsl(var(--clr-white));
+  color: hsl(var(--clr-white));
 }
