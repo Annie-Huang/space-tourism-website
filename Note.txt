@@ -5,5 +5,9 @@ https://github.com/kevin-powell/space-tourism
 https://github.com/Annie-Huang/space-tourism-website
 
 --------------------------------------------------------------------------------------------
-Finished
-10. Typography part 1.
+
+http://localhost:3000/design-system.html
+
+
+Up to
+14. The Explore Button Part 1

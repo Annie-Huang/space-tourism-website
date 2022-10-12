@@ -225,3 +225,16 @@ select {
   padding-right: 0.5em;
   font-weight: 700;
 }
+
+/* ------------------- */
+/* Compontents         */
+/* ------------------- */
+
+.large-button {
+  display: grid;
+  place-items: center;
+  padding: 0 2em;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  text-decoration: none;
+}
