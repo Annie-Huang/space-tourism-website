@@ -175,6 +175,27 @@
 
           <div style="margin-bottom: 50vh">
             <!-- Tabs -->
+            <!-- Use aria-selected="true" instead of class="active" (in navigation) because Tab click stayed in the same page -->
+            <div class="tab-list underline-indicators flex">
+              <button
+                aria-selected="true"
+                class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+              >
+                Moon
+              </button>
+              <button
+                aria-selected="false"
+                class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+              >
+                Mars
+              </button>
+              <button
+                aria-selected="false"
+                class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+              >
+                Europa
+              </button>
+            </div>
 
             <!-- Dots -->
 
