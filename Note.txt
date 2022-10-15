@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-18. Underline Indicators Part Three
+19. Dot Indicators
