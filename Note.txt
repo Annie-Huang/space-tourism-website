@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-19. Dot Indicators
+20. Number Indicators
