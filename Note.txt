@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-20. Number Indicators
+1. Getting everything in place
