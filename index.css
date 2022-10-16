@@ -70,6 +70,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   min-height: 100vh;
+
+  /* Very smart way to give enough space to the header and make the main section of the page to take the rest of the height (can create scroll bar) */
+  display: grid;
+  grid-template-rows: min-content 1fr;
 }
 
 /* Make images easier to work with */
