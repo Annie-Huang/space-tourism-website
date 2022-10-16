@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-1. Getting everything in place
+2. Setting up a grid container
