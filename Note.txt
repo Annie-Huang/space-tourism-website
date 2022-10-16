@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-4. Responsive Typography
+5. Fixing the homepage title
