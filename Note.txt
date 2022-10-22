@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-5. Fixing the homepage title
+7. Final touches on the layout
