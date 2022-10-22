@@ -152,7 +152,13 @@ select {
 .grid-container {
   text-align: center;
   display: grid;
+  place-items: center; /* short form for align-items, justify-items */
+  padding-inline: 1rem;
 }
+.grid-container * {
+  max-width: 50ch;
+}
+
 @media (min-width: 45rem) {
   .grid-container {
     text-align: left;
