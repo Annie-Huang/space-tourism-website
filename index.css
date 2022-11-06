@@ -429,6 +429,15 @@ support need to add for both property and value, because some browser may suppor
 }
 
 @media (min-width: 45em) {
+  .primary-header::after {
+    content: '';
+    display: block;
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background: red;
+  }
+
   .primary-navigation {
     margin-block: 2rem;
   }
