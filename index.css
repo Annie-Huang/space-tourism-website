@@ -367,6 +367,10 @@ support need to add for both property and value, because some browser may suppor
     right: 1rem;
     top: 2rem;
     background: transparent;
+    background-image: url('./assets/shared/icon-hamburger.svg');
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    aspect-ratio: 1;
     border: 0;
   }
 }
