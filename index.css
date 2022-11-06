@@ -194,6 +194,19 @@ select {
   border: 0;
 }
 
+/* this is with this template:
+    <a class="skip-to-content sr-only" href="#main">Skip to content</a>
+   The styling needs to be below .sr-only so it can override it.
+*/
+.skip-to-content:focus {
+  position: relative;
+  width: max-content;
+  height: auto;
+  clip: 0;
+  background: white;
+  color: black;
+}
+
 /* colors */
 
 .bg-dark {
