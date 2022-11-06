@@ -12,4 +12,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-4. Dealing with browser support
+5. The open/close button

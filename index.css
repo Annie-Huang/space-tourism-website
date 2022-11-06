@@ -340,6 +340,10 @@ support need to add for both property and value, because some browser may suppor
 }
 */
 
+.mobile-nav-toggle {
+  display: none;
+}
+
 @media (max-width: 35rem) {
   .primary-navigation {
     --underline-gap: 0.5rem;
@@ -353,6 +357,16 @@ support need to add for both property and value, because some browser may suppor
   }
   /* only target .active (rather than using '*') so you can still see the border bottom when you are on hover */
   .primary-navigation.underline-indicators > .active {
+    border: 0;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 2000;
+    right: 1rem;
+    top: 2rem;
+    background: transparent;
     border: 0;
   }
 }
