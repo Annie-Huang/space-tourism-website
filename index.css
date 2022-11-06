@@ -416,13 +416,21 @@ support need to add for both property and value, because some browser may suppor
   }
 }
 
-@media (min-width: 35em) and (max-width: 45em) {
+@media (min-width: 35em) {
   .primary-navigation {
-    padding-inline: 3rem;
+    padding-inline: clamp(3rem, 7vw, 7rem);
   }
+}
 
+@media (min-width: 35em) and (max-width: 45em) {
   .primary-navigation a > span {
     display: none;
+  }
+}
+
+@media (min-width: 45em) {
+  .primary-navigation {
+    margin-block: 2rem;
   }
 }
 

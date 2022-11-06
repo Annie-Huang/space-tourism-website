@@ -12,4 +12,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-9. Medium screen sizes part 2
+10. Large screen sizes part 1
