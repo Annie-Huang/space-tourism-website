@@ -358,6 +358,11 @@ support need to add for both property and value, because some browser may suppor
     flex-direction: column;
     transform: translateX(100%);
   }
+
+  .primary-navigation[data-visible='true'] {
+    transform: translateX(0);
+  }
+
   /* only target .active (rather than using '*') so you can still see the border bottom when you are on hover */
   .primary-navigation.underline-indicators > .active {
     border: 0;

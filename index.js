@@ -14,6 +14,4 @@ navToggle.addEventListener('click', () => {
   } else {
     nav.setAttribute('data-visible', false);
   }
-
-  console.log(visiblity);
 });
