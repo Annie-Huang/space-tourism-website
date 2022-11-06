@@ -4,10 +4,12 @@ https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1UR
 https://github.com/kevin-powell/space-tourism
 https://github.com/Annie-Huang/space-tourism-website
 
+https://hype4.academy/tools/glassmorphism-generator
+
 --------------------------------------------------------------------------------------------
 
 http://localhost:3000/design-system.html
 
 
 Up to
-2. Fixing the mobile nav layout
+3. The navigation background
