@@ -10,6 +10,10 @@ https://hype4.academy/tools/glassmorphism-generator
 
 http://localhost:3000/design-system.html
 
+sr-only is the opposite of aria-hidden='true'
+sr-only for only showing visual impaired people
+aria-hidden for only hiding to visual impaired people
+
 
 Up to
-11. Large screen sizes part 2
+12. Accessibility tweaks
