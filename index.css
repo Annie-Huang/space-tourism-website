@@ -326,7 +326,7 @@ select {
 
 .primary-header {
   justify-content: space-between;
-  align-content: ;
+  align-content: center;
 }
 
 .primary-navigation {
@@ -352,11 +352,20 @@ support need to add for both property and value, because some browser may suppor
 }
 */
 
+.primary-navigation a {
+  text-decoration: none;
+}
+
+.primary-navigation a > span {
+  font-weight: 700;
+  margin-right: 0.5em;
+}
+
 .mobile-nav-toggle {
   display: none;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 35em) {
   .primary-navigation {
     --underline-gap: 0.5rem;
     position: fixed;
@@ -406,13 +415,7 @@ support need to add for both property and value, because some browser may suppor
   }
 }
 
-.primary-navigation a {
-  text-decoration: none;
-}
-
-.primary-navigation a > span {
-  font-weight: 700;
-  margin-right: 0.5em;
+@media (min-width: 35em) and (max-width: 45em) {
 }
 
 .underline-indicators > * {
