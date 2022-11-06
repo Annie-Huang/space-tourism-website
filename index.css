@@ -370,6 +370,7 @@ support need to add for both property and value, because some browser may suppor
   }
 
   .mobile-nav-toggle {
+    cursor: pointer;
     display: block;
     position: absolute;
     z-index: 2000;
@@ -381,6 +382,10 @@ support need to add for both property and value, because some browser may suppor
     width: 1.5rem;
     aspect-ratio: 1;
     border: 0;
+  }
+
+  .mobile-nav-toggle[aria-expanded='true'] {
+    background-image: url('./assets/shared/icon-close.svg');
   }
 }
 
