@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-1. Setting up the mobile navigation
+2. Fixing the mobile nav layout

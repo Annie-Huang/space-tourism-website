@@ -318,11 +318,15 @@ select {
 }
 
 .primary-navigation {
-  --gap: 8rem;
   --underline-gap: 2rem;
+  position: fixed;
+  z-index: 1000;
+  inset: 0 0 0 20%;
+  background: black;
   list-style: none;
-  padding: 0;
+  padding: mins(6rem, 20vh) 2rem;
   margin: 0;
+  flex-direction: column;
 }
 
 .primary-navigation a {
