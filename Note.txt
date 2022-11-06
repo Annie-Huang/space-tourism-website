@@ -10,4 +10,4 @@ http://localhost:3000/design-system.html
 
 
 Up to
-7. Final touches on the layout
+1. Setting up the mobile navigation
