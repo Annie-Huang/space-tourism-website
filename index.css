@@ -379,6 +379,7 @@ support need to add for both property and value, because some browser may suppor
     background: transparent;
     background-image: url('./assets/shared/icon-hamburger.svg');
     background-repeat: no-repeat;
+    background-position: center;
     width: 1.5rem;
     aspect-ratio: 1;
     border: 0;
@@ -386,6 +387,12 @@ support need to add for both property and value, because some browser may suppor
 
   .mobile-nav-toggle[aria-expanded='true'] {
     background-image: url('./assets/shared/icon-close.svg');
+  }
+
+  /* focus-visible means only tab into the field will see the highlight.*/
+  .mobile-nav-toggle:focus-visible {
+    outline: 5px solid white;
+    outline-offset: 5px;
   }
 }
 
