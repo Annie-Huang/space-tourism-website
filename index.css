@@ -326,7 +326,7 @@ select {
 
 @media (max-width: 35rem) {
   .primary-navigation {
-    --underline-gap: 2rem;
+    --underline-gap: 0.5rem;
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 20%;
@@ -335,6 +335,10 @@ select {
     padding: mins(20rem, 15vh) 2rem;
     margin: 0;
     flex-direction: column;
+  }
+  /* only target .active (rather than using '*') so you can still see the border bottom when you are on hover */
+  .primary-navigation.underline-indicators > .active {
+    border: 0;
   }
 }
 
