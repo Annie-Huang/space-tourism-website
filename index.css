@@ -436,6 +436,11 @@ support need to add for both property and value, because some browser may suppor
     height: 1px;
     width: 100%;
     background: red;
+    order: 1;
+  }
+
+  nav {
+    order: 2;
   }
 
   .primary-navigation {
