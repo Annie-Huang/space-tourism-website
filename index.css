@@ -323,10 +323,22 @@ select {
   padding: 0;
   margin: 0;
 
-  /* The glassmorphism effect rely you on to have a transparent background first. e.g. 0.1 in below */
+  /* The glassmorphism effect rely you on to have a transparent background first. e.g. 0.05 in below.
+     firefox support is already added in, so you don't need to apply for the @support solution that Kevin provided
+   */
   background: hsl(var(--clr-white) / 0.05);
   backdrop-filter: blur(1.5rem);
 }
+
+/*
+support need to add for both property and value, because some browser may support the property but not the specific value unit.
+@supports (backdrop-filter: blur(1rem)) {
+  .primary-navigation {
+    background: hsl(var(--clr-white) / 0.05);
+    backdrop-filter: blur(1.5rem);
+  }
+}
+*/
 
 @media (max-width: 35rem) {
   .primary-navigation {
