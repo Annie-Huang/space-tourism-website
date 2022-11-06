@@ -357,6 +357,7 @@ support need to add for both property and value, because some browser may suppor
     margin: 0;
     flex-direction: column;
     transform: translateX(100%);
+    transition: transform 500ms ease-in-out;
   }
 
   .primary-navigation[data-visible='true'] {

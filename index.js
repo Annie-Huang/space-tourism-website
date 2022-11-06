@@ -11,7 +11,11 @@ navToggle.addEventListener('click', () => {
   // attribute value is string
   if (visiblity === 'false') {
     nav.setAttribute('data-visible', true);
+
+    // I think it is wrong, should be set in the .mobile-nav-toggle span level
+    navToggle.setAttribute('aria-expanded', true);
   } else {
     nav.setAttribute('data-visible', false);
+    navToggle.setAttribute('aria-expanded', false);
   }
 });
