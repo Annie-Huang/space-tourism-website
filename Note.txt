@@ -16,4 +16,4 @@ aria-hidden for only hiding to visual impaired people
 
 
 Up to
-12. Accessibility tweaks
+13. Adding a skip to content link
