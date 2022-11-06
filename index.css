@@ -93,6 +93,8 @@ body {
   /* Very smart way to give enough space to the header and make the main section of the page to take the rest of the height (can create scroll bar) */
   display: grid;
   grid-template-rows: min-content 1fr;
+
+  overflow-x: hidden;
 }
 
 /* Make images easier to work with */
@@ -354,6 +356,7 @@ support need to add for both property and value, because some browser may suppor
     padding: min(20rem, 15vh) 2rem;
     margin: 0;
     flex-direction: column;
+    transform: translateX(100%);
   }
   /* only target .active (rather than using '*') so you can still see the border bottom when you are on hover */
   .primary-navigation.underline-indicators > .active {
