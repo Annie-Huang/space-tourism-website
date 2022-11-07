@@ -9,6 +9,7 @@ https://hype4.academy/tools/glassmorphism-generator
 --------------------------------------------------------------------------------------------
 
 http://localhost:3000/design-system.html
+http://localhost:3000/destination-moon.html
 
 sr-only is the opposite of aria-hidden='true'
 sr-only for only showing visual impaired people
