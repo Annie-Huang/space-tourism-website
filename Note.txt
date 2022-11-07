@@ -16,4 +16,4 @@ aria-hidden for only hiding to visual impaired people
 
 
 Up to
-13. Adding a skip to content link
+2. Getting the destination page started
