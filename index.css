@@ -527,6 +527,28 @@ body {
 .grid-container * {
   max-width: 50ch;
 }
+.numbered-title {
+  grid-area: title;
+}
+
+/* destination layout */
+.grid-container--destination {
+  grid-template-areas: 'title' 'image' 'tabs' 'content';
+}
+
+.grid-container--destination > img {
+  grid-area: image;
+  max-width: 60%;
+}
+.grid-container--destination > .tab-list {
+  grid-area: tabs;
+}
+.grid-container--destination > .destination-info {
+  grid-area: content;
+}
+
+.destination-meta {
+}
 
 @media (min-width: 45em) {
   .grid-container {
