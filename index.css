@@ -561,6 +561,11 @@ body {
     justify-self: start;
     margin-top: 2rem;
   }
+
+  .destination-meta {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 @media (min-width: 45em) {
