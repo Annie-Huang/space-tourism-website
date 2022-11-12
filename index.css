@@ -556,6 +556,10 @@ body {
   margin-top: 2.5rem;
 }
 
+.destination-meta p {
+  font-size: 1.75rem;
+}
+
 @media (min-width: 35em) {
   .numbered-title {
     justify-self: start;
@@ -591,6 +595,7 @@ body {
 
   .grid-container--destination {
     justify-items: start;
+    align-content: start;
     grid-template-areas: '. title title .' '. image tabs .' '. image content .';
   }
 
