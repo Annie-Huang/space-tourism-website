@@ -577,18 +577,20 @@ body {
         1fr
       );
   }
-  .grid-container > *:first-child {
-    grid-column: 2;
-  }
-  .grid-container > *:last-child {
-    grid-column: 3;
-  }
+
   .grid-container--home {
     padding-bottom: max(6rem, 20vh);
     align-items: end;
   }
+  .grid-container--home > *:first-child {
+    grid-column: 2;
+  }
+  .grid-container--home > *:last-child {
+    grid-column: 3;
+  }
 
   .grid-container--destination {
+    justify-items: start;
     grid-template-areas: '. title title .' '. image tabs .' '. image content .';
   }
 }
