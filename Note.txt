@@ -17,4 +17,4 @@ aria-hidden for only hiding to visual impaired people
 
 
 Up to
-3. The mobile layout
+5. Large screen layout
