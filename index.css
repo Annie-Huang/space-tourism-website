@@ -590,6 +590,7 @@ body {
   }
 
   .grid-container--crew {
+    padding-bottom: 0;
     grid-template-areas: 'title' 'content' 'tabs' 'image';
   }
 }
@@ -621,7 +622,8 @@ body {
     grid-template-areas: '. title title .' '. image tabs .' '. image content .';
   }
 
-  .grid-container--destination > img {
+  .grid-container--destination > img,
+  .grid-container--crew > img {
     max-width: 90%;
   }
 
@@ -635,5 +637,13 @@ body {
       '. title title .'
       '. content image .'
       '. tabs image .';
+  }
+
+  .grid-container--crew > .dot-indicators {
+    justify-self: start;
+  }
+
+  .grid-container--crew > img {
+    align-self: end;
   }
 }
