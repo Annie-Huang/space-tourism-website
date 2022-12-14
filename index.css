@@ -560,6 +560,23 @@ body {
   font-size: 1.75rem;
 }
 
+/* crew layout */
+.grid-container--crew {
+  --flow-space: 2rem; /* not sure what it this one use for */
+  grid-template-areas: 'title' 'image' 'tabs' 'content';
+}
+
+.grid-container--crew > img {
+  grid-area: image;
+  max-width: 60%;
+}
+.grid-container--crew > .dot-indicators {
+  grid-area: tabs;
+}
+.grid-container--crew > .crew-details {
+  grid-area: content;
+}
+
 @media (min-width: 35em) {
   .numbered-title {
     justify-self: start;
