@@ -569,6 +569,7 @@ body {
 .grid-container--crew > img {
   grid-area: image;
   max-width: 60%;
+  border-bottom: 1px solid hsl(var(--clr-white) / 0.1);
 }
 .grid-container--crew > .dot-indicators {
   grid-area: tabs;
@@ -586,6 +587,10 @@ body {
   .destination-meta {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .grid-container--crew {
+    grid-template-areas: 'title' 'content' 'tabs' 'image';
   }
 }
 
@@ -623,5 +628,12 @@ body {
   .destination-meta {
     --gap: min(6vw, 6rem);
     justify-content: start;
+  }
+
+  .grid-container--crew {
+    grid-template-areas:
+      '. title title .'
+      '. content image .'
+      '. tabs image .';
   }
 }
