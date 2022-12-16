@@ -2,7 +2,7 @@
   "name": "space-tourism-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "navigation.js",
   "scripts": {
     "start": "lite-server --startPath=design-system.html"
   },
