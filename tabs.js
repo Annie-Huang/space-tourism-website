@@ -23,4 +23,7 @@ tabList.addEventListener('keydown', (e) => {
   if (e.keyCode === keydownLeft) {
     tabFocus--;
   }
+
+  tabs[tabFocus].setAttribute('tabindex', 0);
+  tabs[tabFocus].focus();
 });
