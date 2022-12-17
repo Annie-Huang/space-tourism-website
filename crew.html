@@ -94,6 +94,7 @@
           aria-controls="commander-tab"
           role="tab"
           data-image="commander-image"
+          tabindex="0"
         >
           <span class="sr-only">The commander</span>
         </button>
@@ -102,6 +103,7 @@
           aria-controls="mission-tab"
           role="tab"
           data-image="mission-image"
+          tabindex="-1"
         >
           <span class="sr-only">The mission specialist</span>
         </button>
@@ -110,6 +112,7 @@
           aria-controls="pilot-tab"
           role="tab"
           data-image="pilot-image"
+          tabindex="-1"
         >
           <span class="sr-only">The pilot</span>
         </button>
@@ -118,12 +121,18 @@
           aria-controls="crew-tab"
           role="tab"
           data-image="crew-image"
+          tabindex="-1"
         >
           <span class="sr-only">The crew engineer</span>
         </button>
       </div>
 
-      <article class="crew-details flow" id="commander-tab" role="tabpanel">
+      <article
+        class="crew-details flow"
+        id="commander-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
         <header class="flow flow--space-small">
           <h2 class="fs-600 ff-serif uppercase">Commander</h2>
           <p class="fs-700 uppercase ff-serif">Douglas Hurley</p>
