@@ -1,9 +1,10 @@
 const tabList = document.querySelector('[role="tablist"]');
 const tabs = tabList.querySelectorAll('[role="tab"]');
 
-let tabFocus = 0;
+tabList.addEventListener('keydown', (e) => changeTabFocus(e));
 
-tabList.addEventListener('keydown', (e) => {
+let tabFocus = 0;
+function changeTabFocus(e) {
   // console.log(e.keyCode);
 
   const keydownLeft = 37;
@@ -32,4 +33,4 @@ tabList.addEventListener('keydown', (e) => {
 
   tabs[tabFocus].setAttribute('tabindex', 0);
   tabs[tabFocus].focus();
-});
+}
