@@ -85,16 +85,32 @@
       </h1>
 
       <div class="dot-indicators flex">
-        <button aria-selected="true" aria-controls="commander-tab">
+        <button
+          aria-selected="true"
+          aria-controls="commander-tab"
+          data-image="commander-image"
+        >
           <span class="sr-only">The commander</span>
         </button>
-        <button aria-selected="false">
+        <button
+          aria-selected="false"
+          aria-controls="mission-tab"
+          data-image="mission-image"
+        >
           <span class="sr-only">The mission specialist</span>
         </button>
-        <button aria-selected="false">
+        <button
+          aria-selected="false"
+          aria-controls="pilot-tab"
+          data-image="pilot-image"
+        >
           <span class="sr-only">The pilot</span>
         </button>
-        <button aria-selected="false">
+        <button
+          aria-selected="false"
+          aria-controls="crew-tab"
+          data-image="crew-image"
+        >
           <span class="sr-only">The crew engineer</span>
         </button>
       </div>
@@ -111,7 +127,7 @@
         </p>
       </article>
 
-      <picture>
+      <picture id="commander-image">
         <source
           srcset="assets/crew/image-douglas-hurley.webp"
           type="image/webp"
