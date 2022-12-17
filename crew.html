@@ -84,10 +84,15 @@
         <span aria-hidden="true">02</span> Meet your crew
       </h1>
 
-      <div class="dot-indicators flex">
+      <div
+        class="dot-indicators flex"
+        role="tablist"
+        aria-label="crew member list"
+      >
         <button
           aria-selected="true"
           aria-controls="commander-tab"
+          role="tab"
           data-image="commander-image"
         >
           <span class="sr-only">The commander</span>
@@ -95,6 +100,7 @@
         <button
           aria-selected="false"
           aria-controls="mission-tab"
+          role="tab"
           data-image="mission-image"
         >
           <span class="sr-only">The mission specialist</span>
@@ -102,6 +108,7 @@
         <button
           aria-selected="false"
           aria-controls="pilot-tab"
+          role="tab"
           data-image="pilot-image"
         >
           <span class="sr-only">The pilot</span>
@@ -109,13 +116,14 @@
         <button
           aria-selected="false"
           aria-controls="crew-tab"
+          role="tab"
           data-image="crew-image"
         >
           <span class="sr-only">The crew engineer</span>
         </button>
       </div>
 
-      <article class="crew-details flow" id="commander-tab">
+      <article class="crew-details flow" id="commander-tab" role="tabpanel">
         <header class="flow flow--space-small">
           <h2 class="fs-600 ff-serif uppercase">Commander</h2>
           <p class="fs-700 uppercase ff-serif">Douglas Hurley</p>
